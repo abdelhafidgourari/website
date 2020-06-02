@@ -1,0 +1,119 @@
+<html>
+<body>
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+<input type=hidden name="orgid" value="00D4K000000Cwhy">
+<input type=hidden name="retURL" value="https://qrcargo.com">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="agourari@salesforce.com">                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="recordType">Case Record Type</label><select  id="recordType" name="recordType"><option value="">--None--</option><option value="0124K000000GwDr">Croamis</option>
+<option value="0124K000000GwDm">Live Animals</option>
+<option value="0124K000000GwDc">Pre-Sales Enquiry</option>
+<option value="0124K000000GwDh">Shipment Enquiry</option>
+</select><br>
+
+Title:<select  id="00N4K000000aIER" name="00N4K000000aIER" title="Title"><option value="">--None--</option><option value="Mr.">Mr.</option>
+<option value="Ms.">Ms.</option>
+<option value="Mrs.">Mrs.</option>
+</select><br>
+
+<label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+Shipment City of origin:<input  id="00N4K000000aIEW" maxlength="30" name="00N4K000000aIEW" size="20" type="text" /><br>
+
+Telephone:<input  id="00N4K000000aIPt" maxlength="40" name="00N4K000000aIPt" size="20" type="text" /><br>
+
+Business Type:<select  id="00N4K000000aIEb" name="00N4K000000aIEb" title="Business Type"><option value="">--None--</option><option value="Shipper">Shipper</option>
+<option value="Consignee">Consignee</option>
+<option value="Agent/Freight Forwarder">Agent/Freight Forwarder</option>
+<option value="Others">Others</option>
+</select><br>
+
+<label for="company">Company</label><input  id="company" maxlength="80" name="company" size="20" type="text" /><br>
+
+<label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+
+Subject Picklist:<select  id="00N4K000000aIEv" name="00N4K000000aIEv" title="Subject Picklist"><option value="">--None--</option><option value="Pre-Shipment">Pre-Shipment</option>
+<option value="Post-Shipment">Post-Shipment</option>
+<option value="Other">Other</option>
+</select><br>
+
+Please specify:<input  id="00N4K000000aIF0" maxlength="255" name="00N4K000000aIF0" size="20" type="text" /><br>
+
+Airway Bill Number:<input  id="00N4K000000aIEq" maxlength="30" name="00N4K000000aIEq" size="20" type="text" /><br>
+
+Message:<textarea  id="00N4K000000aIEl" name="00N4K000000aIEl" rows="3" type="text" wrap="soft"></textarea><br>
+
+Purpose of Transport:<input  id="00N4K000000aIF5" maxlength="30" name="00N4K000000aIF5" size="20" type="text" /><br>
+
+Country of Origin / City:<input  id="00N4K000000aIFA" maxlength="10" name="00N4K000000aIFA" size="20" type="text" /><br>
+
+City/Country:<input  id="00N4K000000aIRL" maxlength="15" name="00N4K000000aIRL" size="20" type="text" /><br>
+
+Country of Destination / City:<input  id="00N4K000000aIFF" maxlength="10" name="00N4K000000aIFF" size="20" type="text" /><br>
+
+Type of Animal:<select  id="00N4K000000aIFK" name="00N4K000000aIFK" title="Type of Animal"><option value="">--None--</option><option value="Pets">Pets</option>
+<option value="Other">Other</option>
+</select><br>
+
+Type of Pet:<select  id="00N4K000000aIFP" name="00N4K000000aIFP" title="Type of Pet"><option value="">--None--</option><option value="Cat">Cat</option>
+<option value="Dog">Dog</option>
+<option value="Other">Other</option>
+</select><br>
+
+Number of Pets:<input  id="00N4K000000aIFU" name="00N4K000000aIFU" size="20" type="text" /><br>
+
+Age:<input  id="00N4K000000aIFe" name="00N4K000000aIFe" size="20" type="text" /><br>
+
+Estimated weight per animal:<input  id="00N4K000000aIFo" name="00N4K000000aIFo" size="20" type="text" /><br>
+
+Do you have a health certificate?:<select  id="00N4K000000aIFt" name="00N4K000000aIFt" title="Do you have a health certificate?"><option value="">--None--</option><option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br>
+
+Do you have an import permit?:<select  id="00N4K000000aIFy" name="00N4K000000aIFy" title="Do you have an import permit?"><option value="">--None--</option><option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br>
+
+Number of crates:<input  id="00N4K000000aIG3" name="00N4K000000aIG3" size="20" type="text" /><br>
+
+Number of heads per crate:<input  id="00N4K000000aIGD" name="00N4K000000aIGD" size="20" type="text" /><br>
+
+Type of Breed:<input  id="00N4K000000aIGI" maxlength="10" name="00N4K000000aIGI" size="20" type="text" /><br>
+
+Please specify type of pet:<input  id="00N4K000000aIGN" maxlength="10" name="00N4K000000aIGN" size="20" type="text" /><br>
+
+Please specify type of animal:<input  id="00N4K000000aIGX" maxlength="10" name="00N4K000000aIGX" size="20" type="text" /><br>
+
+Subject Pre-Sales:<input  id="00N4K000000aIPo" maxlength="30" name="00N4K000000aIPo" size="20" type="text" /><br>
+
+Are the animals weaned?:<input  id="00N4K000000aIFj" maxlength="15" name="00N4K000000aIFj" size="20" type="text" /><br>
+
+<input type="submit" name="submit">
+
+</form>
+
+</body>
+
+</html>
