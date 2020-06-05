@@ -4,11 +4,11 @@
 <meta name=”viewport” content=”width=device-width, initial-scal=1, minimum-scale=1”>
 <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #4596D1;
+		background-color: #71B2E4;
 		font-family: "Arial", sans-serif;
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #4596D1;
+		outline: 1px solid #71B2E4;
 	}
 </style>
 
@@ -18,7 +18,7 @@
 		embedded_svc.settings.displayHelpButton = true; //Or false
 		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
-        //embedded_svc.settings.defaultMinimizedText =  '...'; //(Defaults to Chat with an Expert)
+		//embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
 		//embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
 
 		//embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
@@ -37,17 +37,17 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://playful-goat-26uup8-dev-ed.my.salesforce.com',
-			'https://chatbotsite100-developer-edition.um6.force.com',
+			'https://um6.salesforce.com',
+			'https://qrbot.force.com',
 			gslbBaseURL,
-			'00D4K000000DLVL',
+			'00D4K000000Cwhy',
 			'Bot',
 			{
 				baseLiveAgentContentURL: 'https://c.la1-c1-lo2.salesforceliveagent.com/content',
-				deploymentId: '5724K000000KzKQ',
-				buttonId: '5734K000000KzOY',
+				deploymentId: '5724K000000PDQ5',
+				buttonId: '5734K000000PDQ7',
 				baseLiveAgentURL: 'https://d.la1-c1-lo2.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I4K000000KywcUAC_17215e5e2c1',
+				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I4K000000PC5TUAW_1727741522f',
 				isOfflineSupportEnabled: false
 			}
 		);
@@ -55,7 +55,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://playful-goat-26uup8-dev-ed.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://um6.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
